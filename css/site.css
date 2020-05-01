@@ -2,8 +2,8 @@
 ---
 /* Front matter is necessary for Jekyll */
 
-@import "tailwindcss/base";
-@import "tailwindcss/components";
+@tailwind base;
+@tailwind utilities;
 
 /* Write your styles below this line. */
 
