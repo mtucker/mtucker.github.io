@@ -12,12 +12,12 @@ layout: default
   {% assign gardenfolders = gardenfolders | push:tempvar[1] %}
 {% endfor %}
 
-{% assign gardenfolders = gardenfolders | uniq | sort %}
+<!--{% assign gardenfolders = gardenfolders | uniq | sort %}-->
 
 <ol>
-  {% for folder in gardenfolders %}
+{% for folder in gardenfolders %}
   {% unless folder contains 'md' or folder contains 'html' %}
-  <li><a href="/garden/{{folder}}/">{{folder | capitalize}}</a></li>
+  <li><a href="/garden/{{folder}}/">{{ folder | titlecase: '_' }}</a></li>
   {% endunless %}
 {% endfor %}
 </ol>
