@@ -33,8 +33,6 @@ github_username:  jekyll
 markdown: kramdown
 plugins:
   - jekyll-feed
-  - jekyll-postcss
-  - jekyll-purgecss
 
 exclude:
   - .sass-cache/
@@ -42,9 +40,6 @@ exclude:
   - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - node_modules/
-  - postcss.config.js
-  - purgecss.config.js
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
