@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<h2>Welcome to wikifolder</h2>
+<p>This is my personal digital garden. A wild garden, loosely tended. There's drafts, ideas, partials, fragments and ideas.</p>
+
+{% assign folders = site.pages | where_exp:"item", "item.path contains 'garden'" %}
+{% assign wikifolders = "" | split:"" %}
+
+{% for folder in folders %}
+  {% assign tempvar = folder.path | split:"/" %}
+  {% assign wikifolders = wikifolders | push:tempvar[1] %}
+{% endfor %}
+
+{% assign wikifolders = wikifolders | uniq | sort %}
+
+<div class="grid grid-cols-4 gap-4">
+{% for folder in wikifolders %}
+  {% unless folder contains 'md' or folder contains 'html' %}
+    <div class="bg-gray-300 h-12 flex items-center justify-center">
+      <a href="/garden/{{folder}}/">{{folder | capitalize}}</a>
+    </div>
+  {% endunless %}
+{% endfor %}
+</div>
