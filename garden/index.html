@@ -15,12 +15,11 @@ layout: default
 
 {% assign wikifolders = wikifolders | uniq | sort %}
 
-<div class="grid grid-cols-4 gap-4">
-{% for folder in wikifolders %}
+<ol>
+  {% for folder in wikifolders %}
   {% unless folder contains 'md' or folder contains 'html' %}
-    <div class="bg-gray-300 h-12 flex items-center justify-center">
-      <a href="/garden/{{folder}}/">{{folder | capitalize}}</a>
-    </div>
+  <li><a href="/garden/{{folder}}/">{{folder | capitalize}}</a></li>
   {% endunless %}
 {% endfor %}
-</div>
+</ol>
+
