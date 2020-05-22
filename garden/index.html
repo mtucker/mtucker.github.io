@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: internal
 ---
 
 <h2>Digital Garden</h2>
@@ -14,11 +14,11 @@ layout: default
 
 <!--{% assign gardenfolders = gardenfolders | uniq | sort %}-->
 
-<ol>
+<ul>
 {% for folder in gardenfolders %}
   {% unless folder contains 'md' or folder contains 'html' %}
   <li><a href="/garden/{{folder}}/">{{ folder | titlecase: '_' }}</a></li>
   {% endunless %}
 {% endfor %}
-</ol>
+</ul>
 

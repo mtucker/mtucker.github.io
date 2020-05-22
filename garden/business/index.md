@@ -1,3 +1,4 @@
 ---
+layout: internal
 ---
 # Business

@@ -1,6 +1,9 @@
 ---
+layout: internal
 ---
-# Links
+## The Web
+
+### Links
 
 [Jeckyll](https://jekyllrb.com/)
 
@@ -14,3 +17,4 @@
 
 [How to theme with CSS variables](https://www.browserlondon.com/blog/2019/01/15/css-variables-theming/)
 
+[Every Layout](https://every-layout.dev/)
