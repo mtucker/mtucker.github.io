@@ -23,3 +23,14 @@ take to a reputable mechanic
 
 see when inspection sticker expired - if stickers expired, bad sign
 
+
+# How to buy a used car
+
+* Research the price:
+  * Kelly Blue Book Value:
+    * Wholesale Price
+    * Private Sale Price
+    * Be somewhere in between
+
+
+

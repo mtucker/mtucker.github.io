@@ -10,4 +10,11 @@ layout: internal
 [Canonize: Creating a Personal Canon Template](https://www.brendanschlagel.com/2017/11/05/canonize-creating-personal-canon-template/) by [Brendan Schlaegel](https://www.brendanschlagel.com/2017/11/05/canonize-creating-personal-canon-template/)
 
 
+### Digital Gardeners
+
+[Tom Critchlow](https://tomcritchlow.com/)
+
+[Maggie Appleton](https://maggieappleton.com/)
+
+
 
