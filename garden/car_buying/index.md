@@ -1,3 +1,6 @@
+---
+layout: internal
+---
 * What should my budget be? (max: 10K)
 * What make / model should I look for?
 
