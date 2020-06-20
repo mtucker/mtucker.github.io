@@ -34,6 +34,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-responsive-image
+  - jekyll-get-json
 
 exclude:
   - .sass-cache/
@@ -59,3 +60,8 @@ responsive_image:
       quality: 90
   base_path: assets/img
   output_path_format: assets/img/resized/%{width}/%{basename}
+
+
+jekyll_get_json:
+  - data: links
+    json: https://jsonbox.io/box_d29adb92999f7b68f276/digital_gardens
